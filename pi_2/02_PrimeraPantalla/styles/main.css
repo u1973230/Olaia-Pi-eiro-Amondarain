@@ -21,6 +21,7 @@ button.menu-object:active{
 	font-size: 18px;
 	width: 275px;
 	height: 70px;
+	color : red;
 }
 
 button.menu-object:hover:not(:active){
@@ -30,6 +31,7 @@ button.menu-object:hover:not(:active){
 }
 body{
 	background-color : blue;
+	
 }
 	
 
