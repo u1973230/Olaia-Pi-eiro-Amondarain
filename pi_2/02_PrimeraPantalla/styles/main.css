@@ -28,7 +28,9 @@ button.menu-object:hover:not(:active){
 	width: 325px;
 	height: 85px;
 }
-body{
+.body{
 	background.color : blue
 }
+	
+
 
