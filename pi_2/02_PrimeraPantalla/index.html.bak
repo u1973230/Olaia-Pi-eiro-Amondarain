@@ -15,9 +15,11 @@
 		<button class="menu-object" onclick="options()"> 
 			Options 
 		</button>
-		<button class="menu-object" onclick="exit()"> 
-			Exit 
-		</button>
+		<form action="pi_2/02_PrimeraPantalla/">
+			<button type="submit" class="menu-object"> 
+				Exit 
+			</button>
+		</form>
 	</body>
 </html>
 
