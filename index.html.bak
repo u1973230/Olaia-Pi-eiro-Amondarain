@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<p class="menu-object" id="title">Menu Principal</p>
-		<form action="https://www.youtube.com/">
+		<form action="/pi_2/02_PrimeraPantalla/">
 			
 			<button type="submit" class="menu-object" > 
 				GO TO THE GAME MENU!! 
