@@ -35,6 +35,9 @@ button.menu-object:hover:not(:active){
 body{
 	background-color : blue;
 	display: grid; 
+	grid-gap : 1 em;
+	grid-template-rows : auto auto 1fr auto;
+	min-height: 100vh;
 	
 }
 
