@@ -1,6 +1,7 @@
 #title{
 	font-size: 26px;
 	line-height: 75px;
+	color : white;
 }
 
 .menu-object{
