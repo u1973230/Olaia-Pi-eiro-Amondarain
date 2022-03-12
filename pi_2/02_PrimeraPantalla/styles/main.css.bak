@@ -41,10 +41,11 @@ body{
 }
 
 }
-input[type=button]{
-	font-size: 22px;
-	width: 325px;
-	height: 85px;
-	text-align : center;
+img {
+	margin: auto;
+	display: block;
 }
 
+div {
+	width: 600px;
+}

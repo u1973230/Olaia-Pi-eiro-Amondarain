@@ -41,11 +41,8 @@ body{
 }
 
 }
-img {
+.image{
 	margin: auto;
 	display: block;
 }
 
-div {
-	width: 600px;
-}
