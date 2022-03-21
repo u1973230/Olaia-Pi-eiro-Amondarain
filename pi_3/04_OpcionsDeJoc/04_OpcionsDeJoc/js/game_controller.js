@@ -1,7 +1,14 @@
 const back = "../resources/back.png";
 const items = ["../resources/cb.png","../resources/co.png","../resources/sb.png",
 "../resources/so.png","../resources/tb.png","../resources/to.png"];
-
+var options_data = {
+		cards:2, dificulty:"hard"
+	};
+var load = function(){
+		var json = localStorage.getItem("config") || '{"cards":2,"dificulty":"hard"}';
+		options_data = JSON.parse(json);
+	};
+load();
 var game = new Vue({
 	el: "#game_id",
 	data: {
@@ -13,7 +20,6 @@ var game = new Vue({
 	},
 	created: function(){
 		this.username = sessionStorage.getItem("username","unknown");
-		this.numcards = localStorage.getItem("config");
 		this.items = items.slice(); // Copiem l'array
 		this.items.sort(function(){return Math.random() - 0.5}); // Array aleatòria
 		this.items = this.items.slice(0, this.num_cards); // Agafem els primers numCards elements
